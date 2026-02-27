@@ -1,5 +1,5 @@
 // src/components/WeatherMap.tsx
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import { useWeatherStore } from '../store/useWeatherStore';
 import 'leaflet/dist/leaflet.css';
